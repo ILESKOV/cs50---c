@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h> //manage meory (malloc, free etc.)
+#include <stdlib.h> //manage memory (malloc, free etc.)
 
 // everything seems good, there are no errors messages. But better use valgrind to identify memory bugs 'valgrind ./memory'
 int main(void)

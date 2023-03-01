@@ -36,3 +36,5 @@ int main(void)
     free(list);
 }
 
+// it is much better designed than list.c because realloc handle copying
+// of values and in case if next required bytes are garbage vules it is not copying and just allocate new bytes

@@ -44,7 +44,7 @@ int compute_score(string word)
         char c = toupper(word[i]);
 
         // Look up the point value for the character in the POINTS array
-        if (submit50 cs50/labs/2023/x/scrabble(c))
+        if (isalpha(c))
         {
             score += POINTS[c - 'A'];
         }
